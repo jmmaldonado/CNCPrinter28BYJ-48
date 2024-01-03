@@ -1,8 +1,13 @@
-#GRBL 28byj-48
+# CNC Printer with 28byj-48 and Arduino
 
 This is a modified fork from ruizivo/GRBL-28byj-48-Servo.  This modification implements all 3-axises XYZ to a 28BYJ-48 stepper motor.
 
-The motors (28byj-48) are connected to a controller card (Arduino UNO) that uses the chip ULN2003. This board is connected to pins A0, A1, A2, A3 for the Y-Axis(IN4->IN1), D5, D4, D3, D2 pins to the X-Axis(IN4->IN1), and 8,9,12,13 to the Z-Axis(IN4->IN1).
+## Wiring instructions
+The motors (28byj-48) are connected to a controller card (Arduino UNO) that uses the chip ULN2003. 
+- X-Axis (IN4->IN1) --> D5, D4, D3, D2 pins
+- Y-Axis (IN4->IN1) --> A0, A1, A2, A3 pins
+- Z-Axis (IN4->IN1) --> D8, D9, D12, D13 pins
+This board is connected to pins A0, A1, A2, A3 for the Y-Axis(IN4->IN1), D5, D4, D3, D2 pins to the X-Axis(IN4->IN1), and 8,9,12,13 to the Z-Axis(IN4->IN1).
 
 
 ## 3D Printed parts for the CNC body
